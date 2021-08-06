@@ -23,13 +23,7 @@ const Header = () => {
   }, []);
 
   return (
-    <section
-      style={{
-        backgroundImage: 'url(/GrassyBackground.jpg)',
-      }}
-      id="hero"
-      className="jumbotron"
-    >
+    <section id="hero" className="jumbotron">
       {/* id="hero-container" == for border */}
       <Container>
         {/*  */}
